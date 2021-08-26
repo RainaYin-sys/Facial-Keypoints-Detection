@@ -78,18 +78,3 @@ train_data.fillna(method='ffill',inplace=True)
 train_data.isnull().sum().plot(kind='bar',color='pink')
 
 test_data.isnull().sum().plot(kind='bar',color='pink')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
